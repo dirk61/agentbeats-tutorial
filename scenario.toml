@@ -1,0 +1,26 @@
+[green_agent]
+endpoint = "http://127.0.0.1:9009"
+
+
+cmd = 'bash -c "cd /home/six004/agentbeats/mle-bench-green && uv run src/server.py --host 127.0.0.1 --port 9009"'
+
+
+[[participants]]
+role = "agent"
+endpoint = "http://127.0.0.1:9019"
+
+cmd = 'bash -c "cd /home/six004/agentbeats/mle_agent && export KAGGLE_USERNAME=\"dirkxie37\" && export KAGGLE_KEY=\"KGAT_d45c8406bacb9da18b2e30787c602a37\" && uv run src/server.py --host 127.0.0.1 --port 9019"'
+
+
+[config]
+# competition_id = "aerial-cactus-identification"
+# competition_id = "spaceship-titanic"
+# competition_id = "dog-breed-identification"
+# competition_id = "denoising-dirty-documents"
+#competition_id = "mlsp-2013-birds"
+competition_id = "text-normalization-challenge-english-language"
+#competition_id = "jigsaw-toxic-comment-classification-challenge"
+
+#competition_id = "dogs-vs-cats-redux-kernels-edition"
+#competition_id = "the-icml-2013-whale-challenge-right-whale-redux"
+#competition_id="jigsaw-toxic-comment-classification-challenge"
