@@ -18,9 +18,9 @@ cmd = 'bash -c "cd /home/six004/agentbeats/mle_agent && export KAGGLE_USERNAME=\
 # competition_id = "dog-breed-identification"
 # competition_id = "denoising-dirty-documents"
 #competition_id = "mlsp-2013-birds"
-competition_id = "text-normalization-challenge-english-language"
+#competition_id = "text-normalization-challenge-english-language"
 #competition_id = "jigsaw-toxic-comment-classification-challenge"
 
-#competition_id = "dogs-vs-cats-redux-kernels-edition"
+competition_id = "dogs-vs-cats-redux-kernels-edition"
 #competition_id = "the-icml-2013-whale-challenge-right-whale-redux"
 #competition_id="jigsaw-toxic-comment-classification-challenge"
